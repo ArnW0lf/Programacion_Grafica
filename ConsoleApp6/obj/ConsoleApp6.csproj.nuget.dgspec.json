@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Perro\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ConsoleApp6.csproj": {}
+    "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Perro\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ConsoleApp6.csproj": {
+    "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Perro\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ConsoleApp6.csproj",
+        "projectUniqueName": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj",
         "projectName": "ConsoleApp6",
-        "projectPath": "C:\\Users\\Perro\\source\\repos\\ConsoleApp6\\ConsoleApp6\\ConsoleApp6.csproj",
+        "projectPath": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj",
         "packagesPath": "C:\\Users\\Perro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Perro\\source\\repos\\ConsoleApp6\\ConsoleApp6\\obj\\",
+        "outputPath": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Perro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
