@@ -1,5 +1,4 @@
-﻿using System;
-using OpenTK.Graphics.OpenGL;
+﻿using OpenTK.Graphics.OpenGL;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
@@ -8,14 +7,13 @@ namespace ConsoleApp6
 {
     public class Game : GameWindow
     {
-        private Cubo cubo1;
-        private Cubo cubo2;
+        private LetraT LetraT;
         private int shaderProgramObject;
         private Matrix4 model;
         private Matrix4 view;
         private Matrix4 projection;
         private float rotationAngle;
-        private float rotationSpeed = 0.1f; // Velocidad de rotación
+        private float rotationSpeed = 0.1f;
 
         public Game()
             : base(GameWindowSettings.Default, NativeWindowSettings.Default)
@@ -27,42 +25,15 @@ namespace ConsoleApp6
         {
             GL.ClearColor(new Color4(0.3f, 0.4f, 0.5f, 1f));
 
-            //float[] vertices = ModeloCubo.ObtenerVertices();
-            //uint[] indices = ModeloCubo.ObtenerIndices();
-
-            cubo1 = new Cubo(new Vector3(0, 0, 0), 0.2f, 1f, 0.2f, new Color4(1.0f, 0.0f, 0.0f, 1.0f)); // Centrado en el origen (0, 0, 0)
-            cubo2 = new Cubo(new Vector3(0, 0.60f, 0), 0.8f, 0.2f, 0.2f, new Color4(0.0f, 1.0f, 0.0f, 1.0f)); // Arriba del cubo1
-
-            string vertexShaderCode =
-                @"
-                 #version 330 core
-                 layout (location=0) in vec3 aPosition;               
-                 layout (location=1) in vec3 aColor;
-                 out vec3 vertexColor;
-                 uniform mat4 model;
-                 uniform mat4 view;
-                 uniform mat4 projection;
-                 void main(){
-                 gl_Position = projection * view * model * vec4(aPosition, 1.0);
-                 vertexColor = aColor;
-                 }";
-
-            string pixelShaderCode =
-                @"
-                 #version 330 core
-                 in vec3 vertexColor;
-                 out vec4 pixelColor;
-                 void main(){
-                 pixelColor=vec4(vertexColor, 1.0);
-                 }
-                 ";
+            // posision (x,y,z), float anchura x, float altura y, float profundidad z, float largo del brazo en x
+            LetraT = new LetraT(new Vector3(0, 0, 0), 0.2f, 1f, 0.2f, 1.5f); 
 
             int vertexShaderObject = GL.CreateShader(ShaderType.VertexShader);
-            GL.ShaderSource(vertexShaderObject, vertexShaderCode);
+            GL.ShaderSource(vertexShaderObject, Shaders.VertexShaderCode);
             GL.CompileShader(vertexShaderObject);
 
             int pixelShaderObject = GL.CreateShader(ShaderType.FragmentShader);
-            GL.ShaderSource(pixelShaderObject, pixelShaderCode);
+            GL.ShaderSource(pixelShaderObject, Shaders.PixelShaderCode);
             GL.CompileShader(pixelShaderObject);
 
             shaderProgramObject = GL.CreateProgram();
@@ -74,12 +45,11 @@ namespace ConsoleApp6
             GL.DeleteShader(vertexShaderObject);
             GL.DeleteShader(pixelShaderObject);
 
-            // Configurar las matrices de transformación
             model = Matrix4.Identity;
             view = Matrix4.LookAt(new Vector3(0, 0, 3), Vector3.Zero, Vector3.UnitY);
             projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45.0f), Size.X / (float)Size.Y, 0.1f, 100.0f);
 
-            GL.PolygonMode(MaterialFace.FrontAndBack, PolygonMode.Line);
+            GL.PolygonMode(MaterialFace.FrontAndBack, PolygonMode.Fill);
             base.OnLoad();
         }
 
@@ -99,9 +69,7 @@ namespace ConsoleApp6
             GL.UniformMatrix4(viewLocation, false, ref view);
             GL.UniformMatrix4(projectionLocation, false, ref projection);
 
-            // Dibujar los cubos
-            cubo1.Dibujar();
-            cubo2.Dibujar();
+            LetraT.Dibujar();
 
             Context.SwapBuffers();
             base.OnRenderFrame(args);
@@ -124,8 +92,7 @@ namespace ConsoleApp6
 
         protected override void OnUnload()
         {
-            cubo1.Dispose();
-            cubo2.Dispose();
+            LetraT.Dispose();
             GL.UseProgram(0);
             GL.DeleteProgram(shaderProgramObject);
             base.OnUnload();
