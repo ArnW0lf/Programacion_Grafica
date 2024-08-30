@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+yR1IfiZZjU=",
+  "dgSpecHash": "8nN+84FZ0DY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj",
+  "projectFilePath": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\ramitas\\Programacion_Grafica\\ConsoleApp6\\ConsoleApp6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Perro\\.nuget\\packages\\opentk\\4.8.2\\opentk.4.8.2.nupkg.sha512",
     "C:\\Users\\Perro\\.nuget\\packages\\opentk.audio.openal\\4.8.2\\opentk.audio.openal.4.8.2.nupkg.sha512",
