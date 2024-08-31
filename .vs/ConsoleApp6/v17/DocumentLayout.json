@@ -7,11 +7,20 @@
       "RelativeMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\perro\\desktop\\para estudiar\\clon\\actualisacion\\programacion_grafica\\consoleapp6\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\letrat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\perro\\desktop\\para estudiar\\clon\\actualisacion\\programacion_grafica\\consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\Cubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\perro\\desktop\\para estudiar\\clon\\actualisacion\\programacion_grafica\\consoleapp6\\partesuperiort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\partesuperiort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\perro\\desktop\\para estudiar\\clon\\actualisacion\\programacion_grafica\\consoleapp6\\parteinferiort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20AFCA5-C1DA-4AAF-8742-6B4A891DDDBC}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\parteinferiort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,31 +30,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cubo.cs",
-              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\Cubo.cs",
-              "RelativeDocumentMoniker": "..\\..\\Programacion_Grafica\\ConsoleApp6\\Cubo.cs",
-              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\Programacion_Grafica\\ConsoleApp6\\Cubo.cs",
-              "RelativeToolTip": "..\\..\\Programacion_Grafica\\ConsoleApp6\\Cubo.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAwwAEAAAAdAAAA",
+              "DocumentIndex": 4,
+              "Title": "ParteInferiorT.cs",
+              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\ParteInferiorT.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\ParteInferiorT.cs",
+              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\ParteInferiorT.cs",
+              "RelativeToolTip": "ConsoleApp6\\ParteInferiorT.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAiwGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:22:34.238Z"
+              "WhenOpened": "2024-08-31T03:02:37.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParteSuperiorT.cs",
+              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\ParteSuperiorT.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\ParteSuperiorT.cs",
+              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\ParteSuperiorT.cs",
+              "RelativeToolTip": "ConsoleApp6\\ParteSuperiorT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:57:35.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp6\\Program.cs",
-              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\Program.cs",
-              "RelativeToolTip": "ConsoleApp6\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Title": "LetraT.cs",
+              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\LetraT.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\LetraT.cs",
+              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\LetraT.cs",
+              "RelativeToolTip": "ConsoleApp6\\LetraT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:21:45.075Z"
+              "WhenOpened": "2024-08-31T03:03:26.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,9 +79,22 @@
               "RelativeDocumentMoniker": "ConsoleApp6\\Game.cs",
               "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\Game.cs",
               "RelativeToolTip": "ConsoleApp6\\Game.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAIwF4AAAASAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T14:21:44.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp6\\Program.cs",
+              "ToolTip": "C:\\Users\\Perro\\Desktop\\para estudiar\\clon\\actualisacion\\Programacion_Grafica\\ConsoleApp6\\Program.cs",
+              "RelativeToolTip": "ConsoleApp6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:21:45.075Z",
               "EditorCaption": ""
             }
           ]

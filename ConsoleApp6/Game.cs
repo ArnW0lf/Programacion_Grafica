@@ -1,4 +1,5 @@
-﻿using OpenTK.Graphics.OpenGL;
+﻿using ConsoleApp6.ConsoleApp6;
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
@@ -26,7 +27,7 @@ namespace ConsoleApp6
             GL.ClearColor(new Color4(0.3f, 0.4f, 0.5f, 1f));
 
             // posision (x,y,z), float anchura x, float altura y, float profundidad z, float largo del brazo en x
-            LetraT = new LetraT(new Vector3(0, 0, 0), 0.2f, 1f, 0.2f, 1.5f); 
+            LetraT = new LetraT(new Vector3(0, 0, 0), 0.2f, 1f, 0.2f, 1.5f);
 
             int vertexShaderObject = GL.CreateShader(ShaderType.VertexShader);
             GL.ShaderSource(vertexShaderObject, Shaders.VertexShaderCode);
@@ -49,7 +50,7 @@ namespace ConsoleApp6
             view = Matrix4.LookAt(new Vector3(0, 0, 3), Vector3.Zero, Vector3.UnitY);
             projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45.0f), Size.X / (float)Size.Y, 0.1f, 100.0f);
 
-            GL.PolygonMode(MaterialFace.FrontAndBack, PolygonMode.Fill);
+            GL.PolygonMode(MaterialFace.FrontAndBack, PolygonMode.Line);
             base.OnLoad();
         }
 
